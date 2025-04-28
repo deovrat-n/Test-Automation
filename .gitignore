@@ -1,0 +1,36 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Robot Framework log files
+log.html
+output.xml
+report.html
+*.log
+*.xml
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore node_modules if using any frontend
+node_modules/
+
+# Mac OS junk
+.DS_Store
+
+# Windows junk
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+
+# ChromeDriver or GeckoDriver binaries (optional)
+chromedriver
+geckodriver
